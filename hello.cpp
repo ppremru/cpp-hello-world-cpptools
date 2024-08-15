@@ -3,12 +3,13 @@
  *  Licensed under the MIT License. See LICENSE in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 #include <iostream>
-
-using std::cout;
-using std::endl;
+#include <stdio.h>
 
 int main()
 {
-    cout << "Hello, World!" << endl;
+    printf("hello\n");
+    int number;
+    std::cin >> number;
+    std::cout << "you entered " << number << std::endl;
     return 0;
 }
