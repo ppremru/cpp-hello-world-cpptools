@@ -1,6 +1,6 @@
 schemaVersion: 2.2.2
 metadata:
-  name: cpp
+  name: hello
 components:
   - name: tools
     container:
